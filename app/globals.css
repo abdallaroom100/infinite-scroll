@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: red;
+}
+
+.red-gradient {
+  background: linear-gradient(92deg, #38769b 2.87%, #ec2f2f 96.18%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.goko{
+  background: linear-gradient(92deg, #38769b 2.87%, #ec2f2f 96.18%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+:root {
+  color-scheme: dark;
+}
+
+
+.main{
+  background: linear-gradient(87deg, #382d1c, #111738);
+}
